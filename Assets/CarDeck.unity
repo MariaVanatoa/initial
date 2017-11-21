@@ -274,9 +274,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 85718604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfc7b1f85634c2e418cd2cb190eec06a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e5575c6019b7cd4fb2e547258dadb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1136487501}
 --- !u!102 &85718606
 TextMesh:
   serializedVersion: 3
@@ -747,6 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5575c6019b7cd4fb2e547258dadb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1136487501}
 --- !u!102 &432951473
 TextMesh:
   serializedVersion: 3
@@ -1077,9 +1079,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 876646694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 319b942048a1a784487b7b165e49263e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e5575c6019b7cd4fb2e547258dadb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1136487501}
 --- !u!102 &876646696
 TextMesh:
   serializedVersion: 3
@@ -1423,7 +1426,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028ad88f7f217f641ab5d0ad066c80c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resultObj: {fileID: 1352495411}
+  question: This is the first question
+  answers:
+  - ghdfgdfgdf
+  - 2
+  - dfgdfg
+  - dfgdfgd
+  correct: 3
+  fields:
+  - {fileID: 432951473}
+  - {fileID: 2041198446}
+  - {fileID: 876646696}
+  - {fileID: 85718606}
 --- !u!102 &1136487502
 TextMesh:
   serializedVersion: 3
@@ -1653,7 +1667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1306005675
 Transform:
   m_ObjectHideFlags: 0
@@ -2957,9 +2971,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2041198444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26837606a614b684f8a15a4f653893ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e5575c6019b7cd4fb2e547258dadb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1136487501}
 --- !u!102 &2041198446
 TextMesh:
   serializedVersion: 3

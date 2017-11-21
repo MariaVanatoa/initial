@@ -16,7 +16,6 @@ public class NextButton : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-		TextController.randQuestion = -1;
 		//TextController. = "n";
 	//TextController.resultObj.GetComponent<TextMesh>().text = "????" ;
 		resultObj.GetComponent<TextMesh>().text = "Continue" ;
