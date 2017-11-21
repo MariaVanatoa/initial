@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelSwitch : MonoBehaviour {
-
+	/// <summary>
+	/// The load level.
+	/// </summary>
 	public string loadLevel;
 
 	/// <summary>

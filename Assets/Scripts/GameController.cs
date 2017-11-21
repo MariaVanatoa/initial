@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+/// <summary>
+/// Game controller.
+/// </summary>
 public class GameController : MonoBehaviour {
 
 	private ButtonController bLeft;
@@ -11,10 +14,11 @@ public class GameController : MonoBehaviour {
 	private ButtonController bDown;
 	private GameObject ball;
 	public float speed = 0.1f;
+	public string loadLevel;
 
 
 	// Use this for initialization
-	//työkalumetodi milla voimme hakea unitysta jotain
+	//työkalumetodi millä voimme hakea unitysta jotain
 	void Start () {
 		
 		ball = GameObject.Find ("Ball");
@@ -22,9 +26,7 @@ public class GameController : MonoBehaviour {
 		bUp = GameObject.Find ("ButtonUp").GetComponent<ButtonController> ();
 		bRight = GameObject.Find("ButtonRight").GetComponent<ButtonController> ();
 		bDown = GameObject.Find("ButtonDown").GetComponent<ButtonController> ();
-
 	}
-	
 	// Update is called once per frame
 	void Update () {
 		if (bLeft.GetButtonPressed ()) {
@@ -39,6 +41,8 @@ public class GameController : MonoBehaviour {
 		if (bDown.GetButtonPressed ()) {
 			ball.transform.Translate (0,-1*speed,0);
 		}
-
+		if (GUI.Button (new Rect (380, 185, 150, 30), "Main Menu")) {
+			SceneManager.LoadScene ("MainMenu", LoadSceneMode.Single);
 		}
+}
 }

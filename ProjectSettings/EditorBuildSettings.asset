@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EngineRoom.unity
     guid: 8d445cd200ea1a340a64aafcd2a52fc1
+  - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: 3e021fa6a2b226343a4e1b80e4a02689
+  - enabled: 1
+    path: Assets/QuitGame.unity
+    guid: 3308135c94393794c8a2f1c9bd65e143
