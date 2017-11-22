@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 1146509393}
   - component: {fileID: 1146509392}
   - component: {fileID: 1146509391}
+  - component: {fileID: 1146509395}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -434,7 +435,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1146509390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 459, y: 202, z: 0}
+  m_LocalPosition: {x: 374, y: 210.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2110230211}
@@ -447,6 +448,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1146509395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146509390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665b1d5d79da68c428dd8bc71198d8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1369549391
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,8 +937,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53a366f6543dcc64bac7a38a8e2409a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bNext: {fileID: 0}
+  bLeft: {fileID: 0}
+  bRight: {fileID: 0}
+  bUp: {fileID: 0}
+  bDown: {fileID: 0}
+  ball: {fileID: 0}
   speed: 0.1
-  loadLevel: CarDeck
+  loadLevel: CabStart
 --- !u!114 &2110230216
 MonoBehaviour:
   m_ObjectHideFlags: 0

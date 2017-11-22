@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cab2.unity
     guid: 0ecbe715d22d5a94b9017efd8751317c
+  - enabled: 1
+    path: Assets/CabStart 1.unity
+    guid: 59d4f9ce3cd55cc45b582193a05a518c
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
