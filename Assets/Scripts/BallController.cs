@@ -1,9 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/// <summary>
-/// Ball controller.
-/// </summary>
+
 public class BallController : MonoBehaviour {
 	private Rigidbody2D rb;
 
@@ -13,10 +11,7 @@ public class BallController : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D> ();
 	}
 
-	/// <summary>
-	/// Raises the collision enter2 d event.
-	/// </summary>
-	/// <param name="col">Col.</param>
+
 	void OnCollisionEnter2D (Collision2D col) {
 		//rb.AddForce (new Vector2 (-5F,0));
 		//Destroy (col.gameObject);
@@ -26,6 +21,8 @@ public class BallController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
+
+

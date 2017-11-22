@@ -199,7 +199,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 75442003}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 459, y: 202, z: 10}
+  m_LocalPosition: {x: 357.5, y: 201, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1109442401}
@@ -489,7 +489,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Thank you for Playing !\n\nCredits: \nTero Vilane\nAnna Ahola\nMaria Vanatoa\n\n"
+  m_Text: "Thank you for Playing !\n\nCredits: \nTero Vilanen\nAnna Ahola\nMaria Vanatoa\n\n"
 --- !u!222 &1109442403
 CanvasRenderer:
   m_ObjectHideFlags: 0
