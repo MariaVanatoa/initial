@@ -603,8 +603,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 2d4d1a7b-39b3-4efa-9362-a4c8093628bf
-  projectName: Uus
+  cloudProjectId: 2593d898-d783-4fd8-ab83-9641bebae5b6
+  projectName: BalticExpress
   organizationId: maria-helena-vanatoa
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
